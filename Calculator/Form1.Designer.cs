@@ -54,12 +54,12 @@
             this.Result.CausesValidation = false;
             this.Result.Font = new System.Drawing.Font("Consolas", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Result.Location = new System.Drawing.Point(10, 21);
-            this.Result.Multiline = true;
             this.Result.Name = "Result";
             this.Result.ReadOnly = true;
             this.Result.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Result.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.Result.ShortcutsEnabled = false;
-            this.Result.Size = new System.Drawing.Size(358, 62);
+            this.Result.Size = new System.Drawing.Size(358, 64);
             this.Result.TabIndex = 0;
             this.Result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.Result.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -88,6 +88,7 @@
             this.Eight.TabIndex = 2;
             this.Eight.Text = "8";
             this.Eight.UseVisualStyleBackColor = false;
+            this.Eight.Click += new System.EventHandler(this.Eight_Click);
             // 
             // Nine
             // 
@@ -100,6 +101,7 @@
             this.Nine.TabIndex = 3;
             this.Nine.Text = "9";
             this.Nine.UseVisualStyleBackColor = false;
+            this.Nine.Click += new System.EventHandler(this.Nine_Click);
             // 
             // Pow
             // 
@@ -114,6 +116,7 @@
             this.Pow.TabIndex = 4;
             this.Pow.Text = "^";
             this.Pow.UseVisualStyleBackColor = false;
+            this.Pow.Click += new System.EventHandler(this.Pow_Click);
             // 
             // Divide
             // 
@@ -128,6 +131,7 @@
             this.Divide.TabIndex = 8;
             this.Divide.Text = "/";
             this.Divide.UseVisualStyleBackColor = false;
+            this.Divide.Click += new System.EventHandler(this.Divide_Click);
             // 
             // Six
             // 
@@ -140,6 +144,7 @@
             this.Six.TabIndex = 7;
             this.Six.Text = "6";
             this.Six.UseVisualStyleBackColor = false;
+            this.Six.Click += new System.EventHandler(this.Six_Click);
             // 
             // Five
             // 
@@ -152,6 +157,7 @@
             this.Five.TabIndex = 6;
             this.Five.Text = "5";
             this.Five.UseVisualStyleBackColor = false;
+            this.Five.Click += new System.EventHandler(this.Five_Click);
             // 
             // Four
             // 
@@ -164,6 +170,7 @@
             this.Four.TabIndex = 5;
             this.Four.Text = "4";
             this.Four.UseVisualStyleBackColor = false;
+            this.Four.Click += new System.EventHandler(this.Four_Click);
             // 
             // Multiply
             // 
@@ -178,6 +185,7 @@
             this.Multiply.TabIndex = 12;
             this.Multiply.Text = "*";
             this.Multiply.UseVisualStyleBackColor = false;
+            this.Multiply.Click += new System.EventHandler(this.Multiply_Click);
             // 
             // Three
             // 
@@ -203,6 +211,7 @@
             this.Two.TabIndex = 10;
             this.Two.Text = "2";
             this.Two.UseVisualStyleBackColor = false;
+            this.Two.Click += new System.EventHandler(this.Two_Click);
             // 
             // One
             // 
@@ -215,6 +224,7 @@
             this.One.TabIndex = 9;
             this.One.Text = "1";
             this.One.UseVisualStyleBackColor = false;
+            this.One.Click += new System.EventHandler(this.One_Click);
             // 
             // Subtraction
             // 
